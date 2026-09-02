@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Deletion Request - Cakestry Bakery</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 650px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #ea580c;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+    }
+    input {
+      border: 1px solid #cbd5e1;
+      font-size: 0.9rem;
+    }
+    button {
+      background-color: #ea580c;
+      color: white;
+      font-weight: bold;
+      border: none;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>User Data Deletion Request Portal</h1>
+    <p>If you have previously communicated with <strong>Cakestry Bakery Bahawal Nagar</strong> via WhatsApp and wish to delete your records, enter your phone number below:</p>
+    
+    <form onsubmit="event.preventDefault(); alert('Your data deletion request has been registered. Records will be purged within 48 hours.');">
+      <label style="font-size: 0.85rem; font-weight: bold;">WhatsApp Phone Number</label>
+      <input type="text" placeholder="+92 300 1234567" required>
+      <button type="submit">Submit Data Deletion Request</button>
+    </form>
+    
+    <p style="font-size: 0.8rem; color: #64748b; margin-top: 1.5rem;">Or message "DELETE MY DATA" directly to our WhatsApp business number +92 321 6759463.</p>
+  </main>
+</body>
+</html>
